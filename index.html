@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="imagen_alura">
+            <img class="logo" src="img/Logo.png" alt="logo_alura">
+        </section>
+        <section class="ingreso_texto">
+            <div class="ingreso_texto_valor">
+                <textarea placeholder="Ingrese el texto aqui" class="ingreso_texto_caja"></textarea>
+            </div>
+            <div class="ingreso_texto_advertencia">
+                <img class="exclamacion" src="img/bi_exclamation-circle-fill.png" alt="icono-exclamacion">
+                <p>
+                    Solo letras minúsculas y sin acentos.
+                </p>
+            </div>
+            <div class="ingreso_texto_botones">
+                    <button onclick="btnEncriptar();" class="btn_encriptar">Encriptar</button>
+                    <button onclick="btnDesencriptar();" class="btn_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="devuelve_texto">
+            <div class="devuelve_texto_imagen">
+                <img src="img/Muñeco.png" alt="Muñeco_alura">
+            </div>
+            <div class="devuelve_texto_parrafo">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+            <div class="devuelve_texto_boton">
+                <button onclick="btnCopiar();" class="btn_copiar">Copiar</button>
+            </div>
+            <div class="devuelve_texto_valor">
+                <!-- <p class="devuelve_texto_resultado">hola</p> -->
+                <textarea class="devuelve_texto_resultado"></textarea>
+            </div>
+        </section>
+        <script src="java.js"></script>
+    </main>
+    <footer>
+        <p>Desarrollado por Allfredo André Huamán Mori</p>
+        <a href="https://www.instagram.com/">Instagram</a>
+        <a href="https://pe.linkedin.com/">LinkedIn</a>
+        <a href="https://github.com/">GitHub</a>
+    </footer>
+</body>
+</html>
