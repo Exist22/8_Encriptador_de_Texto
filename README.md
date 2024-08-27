@@ -4,32 +4,47 @@
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
 </p>
 
-##Índice
+## :information_desk_person:Descripción del Proyecto
+Proyecto de conclusión del proceso de selección de Alura Latam, que consiste en aplicar los conocimientos adquiridos para la creación de un encriptador de texto funcional.
 
-*[Título e imagen de portada](.Título-e-imagen-de-portada)
+![pagina_del_encriptador](https://github.com/user-attachments/assets/76833ffe-4ce3-461f-8b4e-1bd2f96fb38e)
 
-*[Insignias](#insignias)
+## :hammer:Funcionalidades
 
-*[Índice](#índice)
+- `Funcionalidad 1`: Modifica variables seleccionadas y las reemplaza, de manera que se imposibilite su lectura a usuarios externos.
+- `Funcionalidad 2`: Deshabilita el uso de caracteres especiales y letras mayúsculas.
 
-*[Descripción del proyecto](#descripción-del-proyecto)
+## :memo: Características del Proyecto
 
-*[Estado del proyecto](#Estado-del-proyecto)
+:heavy_check_mark: Debe funcionar solo con letras minúsculas.
 
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+:heavy_check_mark: No deben ser utilizados letras con acentos ni caracteres especiales.
 
-*[Acceso al proyecto](#acceso-proyecto)
+:heavy_check_mark: Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
+:heavy_check_mark: La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre las dos opciones.
 
-*[Personas Contribuyentes](#personas-contribuyentes)
+:heavy_check_mark: El resultado debe ser mostrado en la pantalla.
 
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
+:heavy_check_mark: Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-*[Licencia](#licencia)
+:heavy_check_mark: Reto adicional 1: Crea un footer en la página con el nombre del autor.
 
-*[Conclusión](#conclusión)
+:heavy_check_mark: Reto adicional 2: utiliza el README.md para detallar las funcionalidades de tu sistema.
 
-## :hammer:Funcionalidades del proyecto
+:x: La página debe ser responsiva para adaptarse a diferentes tamaños de pantalla (ej: tablet y smathphone). 
 
-- `Funcionalidad 1`: descripción de la funcionalidad 1- `Funcionalidad 2`: descripción de la funcionalidad 2- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2- `Funcionalidad 3`: descripción de la funcionalidad 3
+## :construction:Lenguajes de Programación Utilizados
+
+- HTML5
+- CSS
+- JavaScript
+
+## :construction:Programa Utilizado
+
+- VisualStudio Code
+
+## :bowtie: Autor
+
+<img src="https://github.com/user-attachments/assets/5b8b8129-7895-45ec-8305-9993f6e59c06" width=115><br><sub>Anfredo André</sub>
+
